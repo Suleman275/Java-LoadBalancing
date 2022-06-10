@@ -8,8 +8,8 @@ public class tester {
       cc.startConnection("127.0.0.1", 4444);
       System.out.println(cc.sendDirRequest());
       System.out.println(cc.vidReq());
-       System.out.println(cc.sendDirRequest());
-       System.out.println(cc.sendDirRequest());
-       System.out.println(cc.reqFile());
+      System.out.println(cc.sendDirRequest());
+      System.out.println(cc.sendDirRequest());
+      System.out.println(cc.reqFile());
    }
 }
