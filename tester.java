@@ -10,5 +10,6 @@ public class tester {
       System.out.println(cc.vidReq());
        System.out.println(cc.sendDirRequest());
        System.out.println(cc.sendDirRequest());
+       System.out.println(cc.reqFile());
    }
 }
