@@ -20,6 +20,9 @@ public class Server {
       serverSocket.close();
    }
 
+   //join load balancer
+   //TODO implement this!!
+
    // client handler for multithreading
    private static class ClientHandler extends Thread {
       private Socket clientSocket;

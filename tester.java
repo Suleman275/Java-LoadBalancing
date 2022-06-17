@@ -1,7 +1,5 @@
 import java.io.IOException;
 
-import javax.sound.sampled.SourceDataLine;
-
 public class tester {
    public static void main(String[] args) throws IOException {
       Client cc = new Client();
@@ -11,5 +9,6 @@ public class tester {
       System.out.println(cc.sendDirRequest());
       System.out.println(cc.sendDirRequest());
       System.out.println(cc.reqFile());
+      cc.stopConnection();
    }
 }

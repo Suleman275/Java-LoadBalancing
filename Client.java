@@ -8,6 +8,7 @@ public class Client {
    private BufferedReader in;
 
    // functions
+   
 
    // start connection
    public void startConnection(String ip, int port) throws IOException {
@@ -18,6 +19,7 @@ public class Client {
 
    // stop connection
    public void stopConnection() throws IOException {
+      sendMessage(".");
       in.close();
       out.close();
       clientSocket.close();
